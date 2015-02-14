@@ -1,0 +1,36 @@
+.wrapper{
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  .projects{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    transition: width .5s ease;
+    .content{
+      position: relative;
+    }
+    .strip{
+      width: 100%;
+      background-color: #000;
+      display: block;
+      position: absolute;
+      img{
+        width: 100%;
+      }
+      &.percent30{
+        top: 70%;
+        height: 30%;
+      }
+      &.percent50{
+        top: 50%;
+        height: 50%;
+      }
+      &.percent70{
+        top: 30%;
+        height: 70%;
+      }
+    }
+  }
+}
