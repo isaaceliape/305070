@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>305070</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,25 +19,9 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <?php include 'inc/header.php'; ?>
 
         <div class="wrapper">
-            <header>
-                <h1><span data-percent="30">30</span>/<span data-percent="50">50</span>/<span data-percent="70">70</span></h1>
-                <nav>
-                    <ul class="wrap-list">
-                        <li class="list-item">
-                            <a href="">
-                                Graphic Design<br>
-                                & Art Direction
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">About me</a><br>
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
             <section class="projects">
                 <div class="content">
                     <div class="strip percent30"></div>
@@ -71,6 +55,24 @@
                 <div class="content">
                     <div class="strip percent70">
                         <img src="img/mediahead.jpg">
+                    </div>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="content">
+                    <div class="strip percent50">
+                        <div class="container-works">
+                            <div class="content-works">
+                                <a href="#"><div class="work percent30" style="background-image: url(img/work1.jpg);"></div></a>
+                                <a href="#"><div class="work percent50" style="background-image: url(img/work2.jpg);"></div></a>
+                                <a href="#"><div class="work percent70" style="background-image: url(img/work3.jpg);"></div></a>
+                                <a href="#"><div class="work percent30" style="background-image: url(img/work1.jpg);"></div></a>
+                            </div>
+                            <nav class="controls">
+                                <div class="arrow-up"></div>
+                                <div class="arrow-down"></div>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </section>

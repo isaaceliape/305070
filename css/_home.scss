@@ -33,4 +33,96 @@
       }
     }
   }
+  .container-works{
+    height: 100%;
+    font-size: 0;
+    position: relative;
+    .controls{
+      .arrow-up{
+        width: 6.3%;
+        height: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #000;
+        text-align: center;
+        vertical-align: top;
+        cursor: pointer;
+        &:hover{
+          &::before{
+            opacity: 1;
+          }
+        }
+        &::before{
+          content: url(../img/arrow-up.png);
+          display: block;
+          position: absolute;
+          top: 20px;
+          width: 100%;
+          opacity: 0;
+        }
+      }
+      .arrow-down{
+        width: 6.3%;
+        height: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        text-align: center;
+        vertical-align: bottom;
+        cursor: pointer;
+        &:hover{
+          &::after{
+            opacity: 1;
+          }
+        }
+        &::after{
+          content: url(../img/arrow-down.png);
+          display: block;
+          position: absolute;
+          bottom: 20px;
+          width: 100%;
+          opacity: 0;
+        }
+      }
+    }
+    .content-works{
+      width: 93.8%;
+      height: 100%;
+      overflow: hidden;
+      .work{
+        width: 33.3%;
+        height: 100%;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        &::after{
+          content:"";
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          background-color: #000;
+          transition: transform .2s ease;
+          transform: translate3d(0,100%,0);
+        }
+        &:hover{
+          &::after{
+            transform: translate3d(0,0,0);
+          }
+        }
+        &.percent30{
+          &::after{height: 30%;}
+        }
+        &.percent50{
+          &::after{height: 50%;}
+        }
+        &.percent70{
+          &::after{height: 70%;}
+        }
+      }
+    }
+  }
 }
