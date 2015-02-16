@@ -106,12 +106,15 @@
           bottom: 0;
           width: 100%;
           background-color: #000;
+          transition: -webkit-transform .2s ease;
           transition: transform .2s ease;
-          transform: translate3d(0,100%,0);
+          -webkit-transform: translate3d(0,100%,0);
+                  transform: translate3d(0,100%,0);
         }
         &:hover{
           &::after{
-            transform: translate3d(0,0,0);
+            -webkit-transform: translate3d(0,0,0);
+                    transform: translate3d(0,0,0);
           }
         }
         &.percent30{
