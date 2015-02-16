@@ -26,55 +26,28 @@
             <a href="javascript: history.back();" class="btn-back">back</a>
             <div class="pagination">06/07</div>
         </div>
-
         <div class="wrapper">
+            <h1 class="project-name">
+                B&C<br>
+                Visual Identity
+            </h1>
             <section class="projects">
-                <div class="content" style="background-image: url(img/inner-project.jpg);">
-                    <h1 class="project-name">
-                        B&C<br>
-                        Visual Identity
-                    </h1>
-                </div>
+                <div class="content" style="background-image: url(img/inner-project.jpg);"></div>
             </section>
             <section class="projects">
-                <div class="content" style="background-image: url(img/inner-project2.jpg);">
-                    <h1 class="project-name">
-                        B&C<br>
-                        Visual Identity
-                    </h1>
-                </div>
+                <div class="content" style="background-image: url(img/inner-project2.jpg);"></div>
             </section>
             <section class="projects">
-                <div class="content" style="background-image: url(img/inner-project.jpg);">
-                    <h1 class="project-name">
-                        B&C<br>
-                        Visual Identity
-                    </h1>
-                </div>
+                <div class="content" style="background-image: url(img/inner-project.jpg);"></div>
             </section>
             <section class="projects">
-                <div class="content" style="background-image: url(img/inner-project2.jpg);">
-                    <h1 class="project-name">
-                        B&C<br>
-                        Visual Identity
-                    </h1>
-                </div>
+                <div class="content" style="background-image: url(img/inner-project2.jpg);"></div>
             </section>
             <section class="projects">
-                <div class="content" style="background-image: url(img/inner-project.jpg);">
-                    <h1 class="project-name">
-                        B&C<br>
-                        Visual Identity
-                    </h1>
-                </div>
+                <div class="content" style="background-image: url(img/inner-project.jpg);"></div>
             </section>
             <section class="projects">
-                <div class="content" style="background-image: url(img/inner-project2.jpg);">
-                    <h1 class="project-name">
-                        B&C<br>
-                        Visual Identity
-                    </h1>
-                </div>
+                <div class="content" style="background-image: url(img/inner-project2.jpg);"></div>
             </section>
         </div>
 

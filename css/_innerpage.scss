@@ -27,14 +27,14 @@
       height: 100%;
       background-color: red;
       background-size: cover;
-      .project-name{
-        position: absolute;
-        right: 300px;
-        bottom: 90px;
-        font-size: 16px;
-        z-index: 999;
-        color: #000;
-      }
     }
+  }
+  .project-name{
+    position: fixed;
+    right: 300px;
+    bottom: 90px;
+    font-size: 16px;
+    z-index: 999;
+    color: #000;
   }
 }
