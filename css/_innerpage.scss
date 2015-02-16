@@ -1,0 +1,39 @@
+.wrap-pagination{
+  width: 750px;
+  height: 100%;
+  position: fixed;
+  left: 50%;
+  transform: translate3d(-50%,0,0);
+  z-index: 999;
+  color: #000;
+  .btn-back{
+    position: absolute;
+    left: 166px;
+    top: 233px;
+  }
+  .pagination{
+    position: absolute;
+    top: 375px;
+    right: 30px;
+    display: inline-block;
+  }
+}
+.inner-page{
+  .projects{
+    position: relative;
+    .content{
+      width: 100%;
+      height: 100%;
+      background-color: red;
+      background-size: cover;
+      .project-name{
+        position: absolute;
+        right: 300px;
+        bottom: 90px;
+        font-size: 16px;
+        z-index: 999;
+        color: #000;
+      }
+    }
+  }
+}

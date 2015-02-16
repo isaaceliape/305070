@@ -20,7 +20,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <?php include 'inc/header.php'; ?>
-
+        
         <div class="wrapper">
             <section class="projects">
                 <div class="content">
@@ -39,23 +39,17 @@
             </section>
             <section class="projects">
                 <div class="content">
-                    <div class="strip percent30">
-                        <img src="img/hereisblank.jpg">
-                    </div>
+                    <a href="innerpage.php"><div class="strip percent30" style="background-image: url(img/hereisblank.jpg);"></div></a>
                 </div>
             </section>
             <section class="projects">
                 <div class="content">
-                    <div class="strip percent50">
-                        <img src="img/consultorio.jpg">
-                    </div>
+                    <a href="innerpage.php"><div class="strip percent50" style="background-image: url(img/consultorio.jpg);"></div></a>
                 </div>
             </section>
             <section class="projects">
                 <div class="content">
-                    <div class="strip percent70">
-                        <img src="img/mediahead.jpg">
-                    </div>
+                    <a href="innerpage.php"><div class="strip percent70" style="background-image: url(img/mediahead.jpg);"></div></a>
                 </div>
             </section>
             <section class="projects">

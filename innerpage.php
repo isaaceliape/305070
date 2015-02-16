@@ -22,8 +22,60 @@
 
         <?php include 'inc/header.php'; ?>
 
+        <div class="wrap-pagination">
+            <a href="javascript: history.back();" class="btn-back">back</a>
+            <div class="pagination">06/07</div>
+        </div>
+
         <div class="wrapper">
-            
+            <section class="projects">
+                <div class="content" style="background-image: url(img/inner-project.jpg);">
+                    <h1 class="project-name">
+                        B&C<br>
+                        Visual Identity
+                    </h1>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="content" style="background-image: url(img/inner-project2.jpg);">
+                    <h1 class="project-name">
+                        B&C<br>
+                        Visual Identity
+                    </h1>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="content" style="background-image: url(img/inner-project.jpg);">
+                    <h1 class="project-name">
+                        B&C<br>
+                        Visual Identity
+                    </h1>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="content" style="background-image: url(img/inner-project2.jpg);">
+                    <h1 class="project-name">
+                        B&C<br>
+                        Visual Identity
+                    </h1>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="content" style="background-image: url(img/inner-project.jpg);">
+                    <h1 class="project-name">
+                        B&C<br>
+                        Visual Identity
+                    </h1>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="content" style="background-image: url(img/inner-project2.jpg);">
+                    <h1 class="project-name">
+                        B&C<br>
+                        Visual Identity
+                    </h1>
+                </div>
+            </section>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

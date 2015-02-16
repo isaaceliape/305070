@@ -17,6 +17,7 @@ header {
     margin: 0;
     line-height: 62px;
     -webkit-font-smoothing: antialiased;
+    font-weight: 100;
     span{
       position: relative;
     }
@@ -46,6 +47,7 @@ header {
       font-size: 15px;
       vertical-align: top;
       margin-right: 65px;
+      font-weight: 100;
     }
   }
 }
